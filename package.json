@@ -1,0 +1,21 @@
+{
+  "name": "@hiudyy/import",
+  "version": "1.0.0",
+  "description": "Importação dinâmica de módulos do NPM e GitHub sem instalação.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiudyy/import.git"
+  },
+  "keywords": [
+    "import",
+    "npm",
+    "github",
+    "dynamic",
+    "require",
+    "modules"
+  ],
+  "author": "Hiudy",
+  "license": "MIT",
+  "dependencies": {}
+}
