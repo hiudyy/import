@@ -1,8 +1,14 @@
 {
   "name": "@hiudyy/import",
-  "version": "1.0.0",
-  "description": "Importação dinâmica de módulos do NPM e GitHub sem instalação.",
+  "version": "1.2.0",
+  "description": "Fast and resilient NPM, Yarn, and GitHub module importer with enhanced features and CLI support",
   "main": "index.js",
+  "bin": {
+    "npm-cached": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hiudyy/import.git"
@@ -10,12 +16,18 @@
   "keywords": [
     "import",
     "npm",
+    "yarn",
     "github",
     "dynamic",
     "require",
-    "modules"
+    "modules",
+    "package",
+    "loader",
+    "cache"
   ],
   "author": "Hiudy",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "semver": "^7.5.4"
+  }
 }
